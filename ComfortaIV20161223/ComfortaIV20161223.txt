@@ -1,6 +1,6 @@
 Comfortaa Greek
 
-Repo: -coming soon-
+Repo: https://github.com/irenevl/Comfortaa-Greek
 Masters: 2
 Instances: 3
 task: review and fix Greek Monotonic set

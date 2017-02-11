@@ -1,0 +1,51 @@
+Comfortaa Greek
+
+Repo: https://github.com/irenevl/Comfortaa-Greek
+Masters: 2
+Instances: 3
+task: review and fix Greek Monotonic set
+
+Review/Approach:
+The initial Greek design follows the roundness of the Latin, but not in all characters, i.e omega. This roundness is a feature that I'll try to add into the Greek skeleton of the glyphs. There are a few glyphs – such as beta, epsilon and xi – that will need major alterations, in order to have a matching width and smoother curves so they be in harmony with the rest of the glyphs. The tonos also needs to be reshaped and repositioned on many base glyphs.
+Glyphs need to be compatible for interpolation.
+
+Changes:
+
+1. Uppercase
+
+Replaced with composites from the Latin where possible:
+Alpha=A, Beta=B, Epsilon=E, Zeta=Z, Eta=H, Theta (round counter)=O, Iota=I, Kappa=K, Mu=M, Nu=N, Omicron=O, Rho=P, Tau=T, Upsilon=Y and Chi=X.
+
+I adapted the width and the style of the rest of the uppercase to match the other capitals.
+
+2. Lowercase
+
+I retouched most of the lowercase, mainly to make changes on the width. No heavy alterations on the actual design. 
+The ones that changed significantly are the followings:
+* iota: added an outstroke at the end of the vertical stroke, since iota always has a horizontal terminal
+* xi: I added the top stroke in order to give some horizontal rhythm to the Greek set. Due to the nature of the Greek script, and in combination with the roundness of the typeface, the Greek set lucks of some horizontal dynamics.
+* tau: added an outstroke since tau always has a horizontal terminal at the bottom of his vertical stroke
+* phi: replaced the lower case phi with a more geometric/typographic shape
+* psi: extended the middle stroke of psi, that should always be extended higher than the x-height, and depending of the ascender height it can extend up to there.
+
+Modifications of width, stroke weight and optical corrections to glyphs including:
+* bets
+* epsilon
+* zeta
+* theta
+*kappa
+*xi
+*pi
+*sigma
+*tau
+*phi
+*psi
+*omega
+
+
+Added the number symbols (2 glyphs), Greek question mark, anoteleia (Greek semicolon) and kai (Greek ampersand).
+
+
+Issues: -
+
+To do: kerning still in progress

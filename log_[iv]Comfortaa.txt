@@ -5,7 +5,6 @@ Masters: 2
 Instances: 3
 task: review and fix Greek Monotonic set
 
-
 Update 11 February 2017:
 
 added kerning on the Greek set
